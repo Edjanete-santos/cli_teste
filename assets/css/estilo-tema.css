@@ -1,0 +1,404 @@
+ *,a {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color:  #6c3428;
+}
+body {
+    font-family: "Open Sans", sans-serif;
+}
+    ul, ol, li,p {
+        list-style: none;
+    }
+
+.img-thumbnail {
+    padding: .25rem;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 5.25rem;
+    max-width: 100%;
+    height: auto;
+    margin:  -6ppx 0 1rem;
+}
+ h1,h2,h4,h5,h6, p, input, select, textarea,small,a, {
+	font-family: 'Andika';
+	color:  #6c3428;
+	margin: 10px;
+}
+body{
+	font-family: : 13px ;
+	line-height: 1,5;
+	margin: 100;
+}
+.bg-light {
+    background-color: #343a40;
+}
+
+footer {
+
+
+    width: 100%;
+	height: 500px;
+	background:#c58383;
+	
+	 margin-left: px;
+}
+iframe{/*mapa*/
+	height: 300px;
+	width:53%; 
+	margin-top: -39px;
+	  
+	/*display:block;
+  margin-right: auto;
+  margin-left: -14px;*/
+}
+img,footer{
+	margin-top: -5px;
+
+}
+ h3{
+	
+	color:  #6c3428;
+	margin:0px;
+
+   
+}
+
+#menu-principal{
+	font-family: 'Andika';
+	font-size: 10px
+    font-weight: bold;
+    /*border-top: solid 6px #2FA217;/
+    border-bottom: solid 6px #2FA217;
+    background-color: #343a40;*/
+}
+#btnScroll a {
+	font-size: 50px;
+	font-weight: bold;
+	color:  #6c3428;
+}
+#btnScroll a {
+    text-decoration: none;
+}
+#btnScroll:hover {
+    opacity: 1;
+}
+#btnScroll a {
+	font-size: 50px;
+	font-weight: bold;
+	color:  #6c3428;
+}
+
+ 
+
+
+
+/*a {
+
+	font-weight: thin;
+	color:  #6c3428;
+	margin-top: 12;
+
+}
+.h1, h1 {
+    font-size: 2.5rem;
+       margin-top: 20px;
+       color:  #6c3428;
+}
+.h2, h2 {
+
+    font-size:40px;
+    margin-top: 9;
+    color:  #6c3428;
+}
+.h4, h4 {
+    font-size: 2.5rem;
+       margin-top: -217;
+       color:  #6c3428;
+       display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+}
+ h5{
+    font-size: 1.5rem;
+       margin-top: 361;
+       color:  #6c3428;
+}
+}
+/*.img-thumbnail {
+    padding: .25rem;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 5.25rem;
+    max-width: 100%;
+    height: auto;/
+}
+.img-topo {
+	width: 100%;
+	height: 300;
+	/*background-color: #11da3fcf;
+	background: url('/assets/img/img-topo.png');/
+}
+
+
+#menu-principal ul  li a {
+	color: #6c3428;/*letras do menu/
+	font-size: 20px;
+	margin-left: 10px;
+    display: block;
+}
+
+#menu-meu-pedido {
+	color: #a01203;
+}
+/*.menu-login {
+	margin-left: 20px;login/	
+
+}
+#logo-menu {
+	background-color:#1e7e34;
+	height: 230px;
+	width: 264px;
+	position: absolute;
+	margin-right: 20px;
+	border: solid 6px #868787;
+	line-height: 232px;
+	z-index: 10;
+
+}
+
+.bag-pedido {
+	font-size: 24px;
+	padding: 0; 
+	color: #2c2c2d ;
+}
+.num-pedidos {
+	font-size: 12px;
+	position: relative;
+    top: -10px;
+    left: -10px;
+}
+.titulo-item {
+	margin-top: 100px;
+	/*margin-bottom: 150px;/
+}
+.lista-produtos {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	/*min-height: 0px;/
+}
+.produto {
+	height: 455px;
+	border-radius: 7px;
+	/*border: px solid #d1d1d1;
+	background: #fff;
+	margin-bottom: 15px;
+}
+.produto .descricao-produto {
+	padding:0px;
+}
+.produto .descricao-produto h3 {
+	font-weight: bold;
+	font-size: 18px;
+}
+.produto .descricao-produto .preco {
+	font-weight: bold;
+	color:  #6c3428;
+	font-size: 22px;
+}
+.produto img {
+	color:  #6c3428;
+	border-radius: 7px;
+	width: 100%;
+	height: 300px;
+	object-fit: all;
+
+}
+p{
+font-size: 20px;
+ margin-left: 9px;
+ margin: -38px;
+
+}
+
+
+
+
+.contato {
+	padding-top:50px;
+	font-family: 'Andika';
+	font-size: 18px;
+	color: #f6b23b;
+}
+/*.direitos {
+	color: #3e7430;
+	font-family: 'Andika';/
+}
+.produto-principal {
+	-webkit-box-shadow: -1px 3px 7px -2px rgba(0,0,0,0.75);
+	-moz-box-shadow: -1px 3px 7px -2px rgba(0,0,0,0.75);
+	box-shadow: -1px 3px 7px -2px rgba(0,0,0,0.75);
+}
+.produto-principal:hover {
+	-webkit-box-shadow: -4px 6px 11px -2px rgba(0,0,0,0.75);
+	-moz-box-shadow: -4px 6px 11px -2px rgba(0,0,0,0.75);
+	box-shadow: -4px 6px 11px -2px rgba(0,0,0,0.75);
+}
+body {
+	background: #dadcded1;/*fundo verde/
+}
+.conteudo {
+	margin-top: 70px;
+}
+.row {
+	margin-bottom:  -121px;
+
+}
+.user-img-menu {
+	width: 30px; 
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.msg-error-form {
+	color: #c0392b;
+    font-weight: bold;
+    font-size: 12px;
+    display: none;
+}
+.total {
+	text-align: center;
+	font-size: 50px;
+	font-weight: bold;
+	color:  #27ae60;
+}
+.total.finalizadas {
+	color:  #3498db;
+}
+.total.pendente {
+	color:  #e74c3c;
+}
+.card-dashboard {
+	padding: 0;
+}
+#produtos_categoria, #vendas_status {
+	height: 250px;
+}
+img.item {
+	max-height: 315px;
+	object-fit: cover;
+	text-decoration-color: #6c3428;
+}
+.owl-next, .owl-prev {
+	font-size: 70px !important;
+	position: relative;
+    top: -235px;
+}
+.owl-prev {
+	left: -210px;
+}
+.owl-next {
+	left: 210px;
+}
+.owl-dots {
+	position: relative;
+    top: -120px;
+}
+.card-body.owl-carousel {
+
+	max-height: 370px;
+}  
+ 
+<style>
+* {box-sizing: border-box;}
+ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif;}
+
+.month {
+  padding: 70px 25px;
+  width: 100%;
+  background: #1abc9c;
+  text-align: center;
+}
+
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.month ul li {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.month .prev {
+  float: left;
+  padding-top: 10px;
+}
+
+.month .next {
+  float: right;
+  padding-top: 10px;
+}
+
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+  background-color: #ddd;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 13.6%;
+  color: #666;
+  text-align: center;
+}
+
+.days {
+  padding: 10px 0;
+  background: #eee;
+  margin: 0;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size:12px;
+  color: #777;
+}
+
+.days li .active {
+  padding: 5px;
+  background: #1abc9c;
+  color: white !important
+}
+
+ Add media queries for smaller screens 
+@media screen and (max-width:720px) {
+  .weekdays li, .days li {width: 13.1%;}
+}
+
+@media screen and (max-width: 420px) {
+  .weekdays li, .days li {width: 12.5%;}
+  .days li .active {padding: 2px;}
+}
+
+@media screen and (max-width: 290px) {
+  .weekdays li, .days li {width: 12.2%;}
+}
+</style>
+
+        
+
+
+
+
+
+
