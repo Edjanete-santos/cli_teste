@@ -12,11 +12,11 @@ body {
     }
 
 .img-thumbnail {
-    padding: .25rem;
+    padding: -1.75rem;
     background-color: #fff;
     border: 1px solid #dee2e6;
-    border-radius: 5.25rem;
-    max-width: 100%;
+    border-radius: 7.25rem;
+    width: 100%;
     height: auto;
     margin:  -6ppx 0 1rem;
 }
@@ -37,11 +37,11 @@ body{
 footer {
 
 
-    width: 100%;
-	height: 500px;
+    width: 118%;
+	height: 800px;
 	background:#c58383;
 	
-	 margin-left: px;
+	/* margin-left: px;*/
 }
 iframe{/*mapa*/
 	height: 300px;
@@ -53,8 +53,7 @@ iframe{/*mapa*/
   margin-left: -14px;*/
 }
 img,footer{
-	margin-top: -5px;
-
+	margin-top: -9px;
 }
  h3{
 	
@@ -88,7 +87,82 @@ img,footer{
 	font-weight: bold;
 	color:  #6c3428;
 }
+.div-container{
+	width: 100%;
 
+}
+.direitos {
+	color: #3e7430;
+	font-family: 'Andika';
+}
+.img-circle {
+    border-radius: 60%;
+}
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+ /* background-color: #f1f1f1;*/
+ padding: 20px;
+ font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 5px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 32px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {/*especiaalidades em fisioterapia*/
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
  
 
 
